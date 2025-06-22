@@ -92,10 +92,7 @@ nav{
     text-decoration: none;
     color: black;
 }
-.menu-element a img{
-    width: 64px;
-    height: 64px;
-}
+
 
 .menu-element a h3{
     align-content: center;
@@ -104,4 +101,25 @@ nav{
     transition: background-color 0.2s;
     background-color: rgb(204, 204, 204);
     cursor: pointer;
+}
+iframe{
+    width: 100%;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+li{
+    display: flex;
+}
+li *{
+    padding: 10px;
+}
+li img{
+    border-radius: 50px;
+}
+img{
+    width: 64px;
+    height: 64px;
 }
