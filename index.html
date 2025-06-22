@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>mmmmm pizza</title>
+  </head>
+  <body>
+    <h1>Pizza</h1>
+    <nav>
+      <div id="menu" class="menu-element">
+        <a href="">
+          <img src="media/menu.png" alt="menu icon">
+          <h3>Menu</h3>
+        </a>
+      </div>
+      <div id="orderOnline" class="menu-element">
+        <a href="">
+          <img src="media/orderOnline.png" alt="order online icon">
+          <h3>Zamów online</h3>
+        </a>
+      </div>
+      <div id="location" class="menu-element">
+        <a href="">
+          <img src="media/store.png" alt="our location icon">
+          <h3>Nasza lokalizacja</h3>
+        </a>
+      </div>
+      <div id="aboutUs" class="menu-element">
+        <a href="">
+          <img src="media/orderOnline.png" alt="about us icon">
+          <h3>O nas/kontakt</h3>
+        </a>
+      </div>
+    </nav>
+    <div class="opinions"></div>
+    <div class="opinion-form">
+      <label for="name">Imię:</label>
+      <input
+        type="text"
+        class="opinion-input"
+        id="name"
+        placeholder="Imie..."
+      />
+      <label for="description">Opis:</label>
+      <input
+        type="text"
+        class="opinion-input"
+        id="description"
+        placeholder="Opis..."
+        maxlength="500"
+      />
+      <label for="stars">Liczba gwiazdek:</label>
+      <input
+        type="number"
+        class="opinion-input"
+        id="stars"
+        placeholder="Liczba gwiazdek..."
+        min="1"
+        max="5"
+      />
+      <button class="submit-opinion" id="submit-opinion">Dodaj opinię</button>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d550.6126422007318!2d18.66829827190023!3d50.294300906624876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471130f8c2df2397%3A0x4ebaa007fde7eff8!2sDolnych%20Wałów%208%2C%2044-100%20Gliwice!5e1!3m2!1spl!2spl!4v1750433081214!5m2!1spl!2spl"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/form.js"></script>
+  </body>
+</html>
