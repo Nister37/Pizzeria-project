@@ -16,20 +16,20 @@
         </a>
       </div>
       <div id="orderOnline" class="menu-element">
-        <a href="">
+        <a href="#order">
           <img src="media/orderOnline.png" alt="order online icon">
           <h3>Zamów online</h3>
         </a>
       </div>
       <div id="location" class="menu-element">
-        <a href="">
+        <a href="#map">
           <img src="media/store.png" alt="our location icon">
           <h3>Nasza lokalizacja</h3>
         </a>
       </div>
       <div id="aboutUs" class="menu-element">
-        <a href="">
-          <img src="media/orderOnline.png" alt="about us icon">
+        <a href="#form">
+          <img src="media/aboutUs.png" alt="about us icon">
           <h3>O nas/kontakt</h3>
         </a>
       </div>
@@ -37,7 +37,7 @@
 
     <div class="opinions"></div>
 
-    <div class="opinion-form">
+    <div class="segment" id="order">
         <ul>
           <li>
             <img src="media/uber.png" alt="Uber eats icon">
@@ -57,7 +57,7 @@
           </li>
         </ul>
     </div>
-    <div class="opinion-form">
+    <div class="segment opinion-form" id="form">:
       <label for="name">Imię:</label>
       <input
         type="text"
@@ -91,9 +91,12 @@
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
+        id="map"
       ></iframe>
     </div>
+    <div id="footer-container"></div>
     <script type="module" src="js/main.js"></script>
     <script type="module" src="js/form.js"></script>
+    <script type="module" src="js/loadFooter.js"></script>
   </body>
 </html>

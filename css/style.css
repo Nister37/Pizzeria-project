@@ -13,7 +13,7 @@ h1 {
     color: #333;
 }
 
-.opinion-form {
+.segment {
     background-color: white;
     padding: 2rem;
     border-radius: 10px;
@@ -23,7 +23,7 @@ h1 {
     max-width: 500px;
 }
 
-.opinion-form label {
+.segment label {
     display: block;
     margin-top: 1rem;
     font-weight: bold;
@@ -122,4 +122,21 @@ li img{
 img{
     width: 64px;
     height: 64px;
+}
+#footer-container{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #636363;
+    text-align: center;
+}
+#footer-container footer div{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#location:active{
+    transition: background-color 0.2s;
+}
+html {
+    scroll-behavior: smooth;
 }
