@@ -140,3 +140,7 @@ img{
 html {
     scroll-behavior: smooth;
 }
+.class-menu-image{
+    width: 300%;
+    height: 300%;
+}
